@@ -1,0 +1,14 @@
+---
+
+wifi_ipaddr: '192.168.1.200/24'
+wifi_gateway: '192.168.1.1'
+eth0_ipaddr: '192.168.100.1/24'
+dns1: '192.168.1.1'
+dns2: '8.8.8.8'
+hostname: 'ids.jadbp.lab'
+
+general_debs: ['vim']
+
+country: 'ES'
+ssid: 'YOUR_SSID'
+psk: 'YOUR_PASSWORD'

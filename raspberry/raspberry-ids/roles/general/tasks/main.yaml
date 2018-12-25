@@ -1,0 +1,13 @@
+---
+
+- name: general configuration
+  include: general.yaml
+
+- name: configure wifi dongle
+  include: wifi-dongle.yaml
+
+- name: network settings
+  include: network.yaml
+
+- name: network forwarding
+  include: forwarding.yaml

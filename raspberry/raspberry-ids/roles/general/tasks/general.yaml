@@ -1,0 +1,37 @@
+---
+
+- name: setting hostname
+  hostname:
+    name: "{{ hostname }}"
+  become: true
+
+- name: removing unnecessary lines
+  lineinfile:
+    path: /etc/hosts
+    state: absent
+    regexp: "127.0.1.1.*"
+  become: true
+
+- name: adding ip to /etc/hosts
+  lineinfile:
+    path: /etc/hosts
+    state: present
+    line: "{{ wifi_ipaddr }}	{{ hostname }}"
+  become: true
+
+- name: update server
+  apt:
+    update_cache: yes
+  become: true
+
+- name: upgrade server
+  apt:
+    upgrade: dist
+  become: true
+
+- name: installing general purpose packages
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ general_debs }}"
+  become: true

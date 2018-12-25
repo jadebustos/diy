@@ -1,0 +1,12 @@
+---
+
+- name: /etc/wpa_supplicant/wpa_supplicant.conf
+  template:
+    src: wpa_supplicant.conf.j2
+    dest: /etc/wpa_supplicant/wpa_supplicant.conf
+    owner: root
+    group: root
+    mode: 0600
+    force: yes
+  become: true
+

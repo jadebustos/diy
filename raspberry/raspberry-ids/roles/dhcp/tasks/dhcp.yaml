@@ -1,0 +1,39 @@
+---
+
+- name: installing dhcp packages
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ dhcp_debs }}"
+  become: true
+
+- name: configuring dhcp server
+  template:
+    src: dhcpd.conf.j2
+    dest: /etc/dhcp/dhcpd.conf
+    owner: root
+    group: root
+    mode: 0644
+    force: yes
+  become: true
+
+- name: /etc/default/isc-dhcp-server
+  lineinfile:
+    path: /etc/default/isc-dhcp-server 
+    regexp: '^INTERFACESv4'
+    line: "INTERFACESv4=\"{{ dhcp_iface }}\""
+    state: present
+  become: true
+
+- name: deleting /var/run/dhcpd.pid
+  file:
+    path: /var/run/dhcpd.pid
+    state: absent
+  become: true
+
+- name: enabling dhcpd
+  service:
+    name: isc-dhcp-server
+    enabled: yes
+    state: restarted
+  become: true

@@ -1,0 +1,18 @@
+---
+
+- name: static network configuration
+  blockinfile:
+    dest: /etc/dhcpcd.conf
+    block: |
+      interface eth0
+      nodhcp
+      nodhcp6
+      static ip_address={{ eth0_ipaddr }}
+
+      interface wlan0
+      nodhcp
+      nodhcp6
+      static ip_address={{ wifi_ipaddr }}
+      static routers={{ wifi_gateway }}
+      static domain_name_servers={{ dns1 }} {{ dns2 }}
+  become: true

@@ -1,0 +1,11 @@
+ddns-update-style none;
+authoritative;
+subnet {{ dhcp_subnet }} netmask {{ dhcp_netmask }} {
+  range {{ dhcp_start_range }} {{ dhcp_stop_range }};
+  option routers {{ dhcp_router }};
+  option subnet-mask {{ dhcp_netmask }};
+  option domain-name "jail.vh.jadbp.lab";
+  option domain-name-servers {{ dns1 }}, {{ dns2 }};
+  default-lease-time {{ dhcp_default_lease_time }};
+  max-lease-time {{ dhcp_max_lease_time }};
+}

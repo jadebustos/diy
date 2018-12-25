@@ -1,0 +1,13 @@
+---
+
+dhcp_iface: 'eth0'
+dhcp_domain_name: 'jail.vh.jadbp.lab'
+dhcp_subnet: '192.168.100.0'
+dhcp_netmask: '255.255.255.0'
+dhcp_router: '192.168.100.1'
+dhcp_max_lease_time: '7200'
+dhcp_default_lease_time: '600'
+dhcp_start_range: '192.168.100.10'
+dhcp_stop_range: '192.168.100.200'
+
+dhcp_debs: ['isc-dhcp-server']

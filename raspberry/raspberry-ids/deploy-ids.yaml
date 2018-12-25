@@ -1,0 +1,13 @@
+---
+
+- name: configure an ids on raspberry
+  hosts: raspbian
+  vars_files:
+    - "group_vars/general.yaml"
+    - "group_vars/dhcp.yaml"
+    - "group_vars/suricata.yaml"
+  gather_facts: false
+  roles:
+    - general
+    - dhcp
+#    - suricata

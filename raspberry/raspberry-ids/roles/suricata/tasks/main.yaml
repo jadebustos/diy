@@ -1,0 +1,4 @@
+---
+
+- name: installing suricata
+  include: suricata-installation.yaml
