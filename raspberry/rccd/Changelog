@@ -1,0 +1,12 @@
+2014-09-26  Jose Angel de Bustos Perez  <jadebustos@gmail.com>
+
+	* log-service.c: New feature: Changed logging. Now two logging methods are supported, syslog and systemd.
+			 Syslog method is only implemented at this time.
+
+2014-09-25  Jose Angel de Bustos Perez  <jadebustos@gmail.com>
+
+	* process-args.c: New feature: command line arguments. At this moment only configuration file.
+
+	* read-config.c: New feature: configuration must be read from a configuration file.
+
+	* rccd.conf: Sample configuration file. 
