@@ -11,6 +11,10 @@ After mounting it on the motor engine:
 
 ![Extruder upgrade](imgs/extruder_upgrade.jpg)
 
+You will need to cut it a bit:
+
+![Extruder upgrade](imgs/extruder_upgrade-2.jpg)
+
 ## MOSFET for hotbed
 
 [MOSFET for hotbed](https://www.amazon.es/gp/product/B076M7CK1N/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1)
