@@ -18,6 +18,8 @@
 
 + [Service manual for Sony Hit Bit HB-10P](https://archive.org/details/sonyhb10p10bsm/mode/2up). Electrical scheme in 5-4.
 
++ Service manual can also be downloaded from [here](https://hansotten.file-hunter.com/manuals-and-guides/). [Service manual for Sony Hit Bit HB-10P](https://hansotten.file-hunter.com/uploads/files/sonyhb10p10bsm.pdf)
+
 ## Information about the Power Supply
 
 + Not standard output plug.
