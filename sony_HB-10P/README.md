@@ -25,10 +25,14 @@
 + From [RetroChallengeRetry, 2020/04](https://www.raphnet.net/divers/retro_challenge_2020_04/index_en.php):
 
 > 
->    + 6V DC: Sent to the 5V voltage regulator.
->    + 16V AC: Used to make 12V and -12V DC using 7812 et 7912 voltage regulators.
+>    + 6V DC (900 mA): Sent to the 5V voltage regulator.
+>    + 16V AC (160 mA): Used to make 12V and -12V DC using 7812 et 7912 voltage regulators.
 >        + 12V: Sent to the cassette connector and to the cartridge slots.
 >        + -12V: Sent to the cartridge slots.
+
+From the computer itself:
+
+![](imgs/hb-10p-specs.jpg)
 
 ## Recycling power supplies
 
