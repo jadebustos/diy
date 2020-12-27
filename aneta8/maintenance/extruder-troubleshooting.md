@@ -4,7 +4,7 @@
 
 Do not force the extruder. If you need to move it:
 
-+ Go to **Quick Settings -> Home All**.
++ Go to **Quick Settings --> Home All**.
 + After the extruder finished to move go to **Quick Settings --> Disable Stepper**.
 + You can go back to the main display to verify that stepper is disabled. Now you can manually move the extruder.
 
