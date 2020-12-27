@@ -2,10 +2,10 @@
 
 ## Manually moving the extruder
 
-Do not forze the extruder. If you need to move it:
+Do not force the extruder. If you need to move it:
 
 + Go to **Quick Settings -> Home All**.
-+ After the extruder finished to move go to **Quick Settings -> Disable Stepper**.
++ After the extruder finished to move go to **Quick Settings --> Disable Stepper**.
 + You can go back to the main display to verify that stepper is disabled. Now you can manually move the extruder.
 
 ## Non uniform printing (MK8 extruder assembly)
@@ -47,6 +47,6 @@ You could use a 1,2 dremel drill to "remove" the stuck filament (use low revolut
 
 ![Filament get stuck](imgs/filament-stuck-05.jpg)
 
-You will have removed most of the filament. Mount the extruder, warm the extruder (Extruder -> Temperature and set temperature to 230). When temperature get 230 Celsius degrees use the 1,5 allen key. Introduce it in the extruder feeder pushing smoothly until PLA/ABS filament leaks:
+You will have removed most of the filament. Mount the extruder, warm the extruder **(Extruder --> Temperature** and set temperature to 230). When temperature get 230 Celsius degrees use the 1,5 allen key. Introduce it in the extruder feeder pushing smoothly until PLA/ABS filament leaks:
 
 ![Filament get stuck](imgs/filament-stuck-06.jpg)
