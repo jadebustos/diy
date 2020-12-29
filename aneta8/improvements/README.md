@@ -10,7 +10,7 @@ These are the improvements I have made to the ANET A8.
 ## Stability (reduce vibrations)
 
 + [T-corner](t-corner.md) to reduce z-wobble.
-+ [Anti Z wobble v3](anti-z-wobble.md) to reduce z-wobble.
++ [Anti Z wobble](anti-z-wobble.md) to reduce z-wobble.
 
 ## The pending ones
 
