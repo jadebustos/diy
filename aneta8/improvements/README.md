@@ -4,10 +4,10 @@ These are the improvements I have made to the ANET A8.
 
 ## Ease printing
 
-+ Use a crystal as a bed surface instead of painter's tape. Use a crystal together with hairspray.
++ Use a crystal as a bed surface instead of painter's tape. Use a 3d printing borosilicate glass together with hairspray.
 + [Extruder feeder upgrade](extruder.md), eases filament removal avoiding filament getting stuck.
-+ [Center nozzle fan](chttps://www.thingiverse.com/thing:1620630) is used to cool printed filament.
-* [Spool holder redux](https://www.thingiverse.com/thing:1743397).
++ [Center nozzle fan](https://www.thingiverse.com/thing:1620630) is used to cool printed filament.
++ [Spool holder redux](https://www.thingiverse.com/thing:1743397).
 
 ## Stability (reduce vibrations)
 
