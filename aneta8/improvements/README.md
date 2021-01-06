@@ -6,7 +6,8 @@ These are the improvements I have made to the ANET A8.
 
 + Use a crystal as a bed surface instead of painter's tape. Use a crystal together with hairspray.
 + [Extruder feeder upgrade](extruder.md), eases filament removal avoiding filament getting stuck.
-+ [Center nozzle fan](center-nozzle-fan.md)
++ [Center nozzle fan](chttps://www.thingiverse.com/thing:1620630) is used to cool printed filament.
+* [Spool holder redux](https://www.thingiverse.com/thing:1743397).
 
 ## Stability (reduce vibrations)
 
@@ -27,5 +28,3 @@ These are the improvements I have made to the ANET A8.
 * [Spool holder redux](spool-holder-redux.md)
 * [Tool set holder](https://www.thingiverse.com/thing:1539675)
 * [ANET A8 Spiral vase linear bushing](https://www.thingiverse.com/thing:2537701)
-* [https://www.thingiverse.com/thing:2290361](https://www.thingiverse.com/thing:2290361)
-* [Spool holder redux](spool-holder-redux.md)
